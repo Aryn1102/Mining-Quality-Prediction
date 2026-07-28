@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Data
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.xls
+data/raw/*.parquet
+!data/raw/.gitkeep
+
+# Processed data
+data/processed/*
+
+# Models
+models/*.pkl
+models/*.joblib
+models/*.sav
